@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dom.css">
+    <title>BMI Calculator</title>
+</head>
+
+<body>
+    <div class="container">
+    <div>
+        <h2 id="head">BMI</h2>
+    </div>
+    <div class="bmi">
+        <input id="massInput" type="number" placeholder="Mass (in kg)"><br />
+        <input id="heightInput" type="number" placeholder="Height (in cm)"><br />
+        <button onclick="validatevalue() && calBMI()">Calculate BMI</button><br />
+    </div>
+
+    <div>
+        <h3 id="errors"></h3>
+    </div>
+    <div>
+
+    </div>
+    <h2 id="resultarea"></h2>
+    </div>
+    <script src="dom.js"></script>
+
+</body>
+
+</html>
